@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import './progressBar.css';
+import './ProgressBar.css';
 
 const Range = (props) => {
   return (
