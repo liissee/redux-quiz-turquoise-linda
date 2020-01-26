@@ -5,7 +5,9 @@
   width: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
 }
 
 .currentQuestionHeader {

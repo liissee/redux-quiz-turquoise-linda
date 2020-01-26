@@ -1,7 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { quiz } from 'reducers/quiz'
-import { Score} from 'components/Score'
 
 export const RestartButton = () => {
   const dispatch = useDispatch()
@@ -11,9 +10,8 @@ export const RestartButton = () => {
   return (
     <>
       {quizEnd && (
-        <div>
-          <h1>YOU RESULT: {score}</h1>
-          
+        <div className="result-page">
+          <h1>YOUR RESULT: {score} / 5</h1>
           <button type="button" onClick={() => dispatch(quiz.actions.restart())}>
             Do it again!
           </button>
@@ -22,5 +20,3 @@ export const RestartButton = () => {
     </>
   )
 }
-
-// the restartbutton is shown when quizOver is true

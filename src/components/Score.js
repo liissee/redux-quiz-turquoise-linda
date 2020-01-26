@@ -6,7 +6,7 @@ export const Score = () => {
 
   return (
     <>
-        <div>{score}</div>
+      <div>{score}</div>
     </>
-        )
-      }
+  )
+}

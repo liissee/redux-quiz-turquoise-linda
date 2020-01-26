@@ -30,4 +30,6 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
+.result-page {
+  color: #fff;
+}
